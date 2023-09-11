@@ -400,6 +400,12 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.hero-img img {
+  max-width: 100%; /* Gambar akan memiliki lebar maksimum 100% dari lebar elemen parent */
+  height: auto; /* Memastikan gambar tidak terdistorsi */
+  display: block; /* Menghilangkan spasi tambahan di bawah gambar */
+  margin: 0 auto; /* Membuat gambar berada di tengah */
+}
 #hero {
   width: 100%;
   background: url("../img/hero-bg.jpg");
